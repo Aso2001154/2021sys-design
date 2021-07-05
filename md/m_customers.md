@@ -3,22 +3,12 @@
 
 !define MASTER_MARK_COLOR Lime 
 !define TRANSACTION_MARK_COLOR HotPink
-
-'グラデーションさせる場合 #xx-xx
-!define MAIN_ENTITY Cyan
-
-/'
-  デフォルト色を"skinparam class"で設定します。
-'/
 skinparam class {
-    '図の背景
     BackgroundColor Snow
-    '図の枠
     BorderColor Black
-    'リレーションの色
     ArrowColor Black
 }
-package "ECサイト" as target_system <<MAIN_ENTITY>>{
+package "ECサイト" as target_system {
         /'
       マスターテーブルを M、トランザクションを T などで表記
       １文字なら "主" とか "従" まど日本語でも記載可能
