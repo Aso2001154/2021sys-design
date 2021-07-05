@@ -24,7 +24,7 @@ package "ECサイト" as target_system {
       １文字なら "主" とか "従" まど日本語でも記載可能
      '/
 
-    entity "顧客マスタ" as customer <m_customers> <<MAIN_ENTITY>> {
+    entity "顧客マスタ" as customer <m_customers> <<MASTER_MARK_COLOR>> {
         + customer_code [PK]
         --
         pass
