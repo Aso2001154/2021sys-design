@@ -8,7 +8,7 @@
   https://github.com/shibakay/2021sys-design/blob/main/color.md
 '/
 
-!define MASTER_MARK_COLOR Orange 
+!define MASTER_MARK_COLOR RoyalBlue 
 !define TRANSACTION_MARK_COLOR DeepSkyBlue
 
 'グラデーションさせる場合 #xx-xx
