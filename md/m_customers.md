@@ -38,7 +38,7 @@ package "ECサイト" as target_system {
         mail
         del_flag
         reg_date
-    }
+    } |o--o|
     entity "購入テーブル" as customer <d_purchase> <<T,MASTER_MARK_COLOR>> {
         + order_id [PK]
         --
@@ -46,6 +46,7 @@ package "ECサイト" as target_system {
         purchase_date
         total_price
     }
+    
     entity "購入詳細テーブル" as customer <d_purchase_detail> <<T,MASTER_MARK_COLOR>> {
         + ordet_id [PK]
         + detail_id [PK]
