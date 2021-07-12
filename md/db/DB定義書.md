@@ -17,7 +17,7 @@
 
 |和名| 属性名 | 型 | PK | NN | FK |
 |----|-------|----|----|----|----|
-|詳細詳細ID|detail_id|bigint(20)|○|○||
+|オーダー詳細ID|detail_id|bigint(20)|○|○||
 |オーダーID|order_id|bigint(20)|○|○|○|
 |商品コード|item_code|int(11)||○||
 |価格|price|int(11)||○||
