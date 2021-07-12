@@ -6,7 +6,7 @@
 |和名| 属性名 | 型 | PK | NN | FK |
 |---|--------|----|----|----|----|
 |オーダーID|order_id|bigint(20)|○|○||
-|顧客ID|customer_code|varchar(50)||○||
+|顧客ID|customer_code|varchar(50)||○|○|
 |購入日|purchase_date|date||○||
 |総額|total_price|int(11)||○||
 
@@ -16,7 +16,7 @@
 |----|-------|----|----|----|----|
 |オーダー詳細ID|detail_id|bigint(20)|○|○||
 |オーダーID|order_id|bigint(20)|○|○|○|
-|商品ID|item_id|int(11)||○||
+|商品ID|item_id|int(11)||○|○|
 |商品名|item_name|varchar(50)||○||
 |価格|price|int(11)||○||
 |数量|num|int(11)||○||
@@ -63,7 +63,7 @@
 |和名| 属性名 | 型 | PK | NN | FK |
 |----|-------|----|----|----|----|
 |ランキングID|ranking_id|int(11)|○|○||
-|商品ID|item_id|int(11)|○|○||
+|商品ID|item_id|int(11)|○|○|○|
 |商品名|item_name|varchar(50)||○||
 |価格|price|int(11)||○||
 |カテゴリID|category_id|int(11)||○|○|
