@@ -1,7 +1,7 @@
 ### 画面詳細図
 ## トップページ(シャーペン[ジャンル])
 ### プロトタイプは以下のリンク先
-[プロトタイプ](https://www.figma.com/file/cUHsWA5L5YUzkipV433IoV/gakki?node-id=1%3A2)
+[プロトタイプ](https://www.figma.com/file/YN8g4ahM3raStzCZMDXhNA/stationary?node-id=1%3A10)
 *****
 <img src="../img/toppage.png" width="500">
 
