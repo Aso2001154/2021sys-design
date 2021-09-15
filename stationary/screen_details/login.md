@@ -1,5 +1,5 @@
 ### 画面詳細図
-## トップページ(シャーペン[ジャンル])
+## ログイン
 ### プロトタイプは以下のリンク先
 [プロトタイプ](https://www.figma.com/file/YN8g4ahM3raStzCZMDXhNA/stationary?node-id=1%3A10)
 *****
