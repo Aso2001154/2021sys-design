@@ -3,7 +3,8 @@
 ### プロトタイプは以下のリンク先
 [プロトタイプ](https://www.figma.com/file/YN8g4ahM3raStzCZMDXhNA/stationary?node-id=1%3A10)
 *****
-<img src="../img/.png" width="500">
+<img src="../img/履歴.png" width="500">
+<img src="../img/履歴1.png" width="500">
 
 *****
 補足：対応DBの列はDB設計後、○を対応するテーブル・カラム名に差し替えること。
