@@ -1,7 +1,7 @@
 ### 画面詳細図
 ## 検索結果
 ### プロトタイプは以下のリンク先
-[プロトタイプ](https://www.figma.com/file/YN8g4ahM3raStzCZMDXhNA/stationary?node-id=1%3A10)
+[プロトタイプ](https://www.figma.com/file/YN8g4ahM3raStzCZMDXhNA/stationary?node-id=1%3A)
 *****
 <img src="../img/検索結果.png" width="500">
 
