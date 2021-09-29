@@ -25,8 +25,8 @@ package "ECサイト" as target_system {
         user_id
         user_pass
         user_name
-        user_address
         credit_number
+        user_address
     }
     
     entity "カートテーブル" as cart <cart> <<T,TRANSACTION_MARK_COLOR>> {
