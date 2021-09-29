@@ -19,7 +19,7 @@ package "ECサイト" as target_system {
       １文字なら "主" とか "従" まど日本語でも記載可能
      '/
 
-    entity "ユーザーテーブル" as user <user> <<M,MASTER_MARK_COLOR>> {
+    entity "ユーザーマスタ" as user <user> <<M,MASTER_MARK_COLOR>> {
         + user_number [PK]
         --
         user_id
@@ -47,7 +47,7 @@ package "ECサイト" as target_system {
         histoty_day
     }
     
-    entity "商品テーブル" as merchandise <merchandise> <<M,MASTER_MARK_COLOR>> {
+    entity "商品マスタ" as merchandise <merchandise> <<M,MASTER_MARK_COLOR>> {
         + genre_id [PK]
         + merchandise_id [PK]
         --
