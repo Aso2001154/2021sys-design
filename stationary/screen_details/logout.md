@@ -1,7 +1,7 @@
 ### 画面詳細図
 ## ログアウト完了
 ### プロトタイプは以下のリンク先
-[プロトタイプ](https://www.figma.com/file/YN8g4ahM3raStzCZMDXhNA/stationary?node-id=1%3A10)
+[プロトタイプ](https://www.figma.com/file/YN8g4ahM3raStzCZMDXhNA/stationary?node-id=1%3A2)
 *****
 <img src="../img/ログアウト.png" width="500">
 
