@@ -30,7 +30,7 @@ package "ECサイト" as target_system {
     }
     
     entity "カートテーブル" as cart <cart> <<T,TRANSACTION_MARK_COLOR>> {
-        + cart_user_number[PK]
+        + cart_user_number[PK][FK]
         + cart_count[PK]
         --
         # cart_genre_id [FK]
@@ -38,34 +38,48 @@ package "ECサイト" as target_system {
         cart_quantity
     }
     
-    entity "履歴テーブル" as history  <history> <<T,TRANSACTION_MARK_COLOR>> {
-        + history_user_number[PK]
-        + history_count[PK]
+    entity "購入履歴テーブル" as history_purchase  <history_purchase> <<T,TRANSACTION_MARK_COLOR>> {
+        + history_id[PK]
+        --
+        # history_user_number [FK]
+        histoty_day
+        all_price
+    }
+        
+    entity "購入詳細履歴テーブル" as history_detail  <history_detail> <<T,TRANSACTION_MARK_COLOR>> {
+        + history_detail_id[PK]
+        + history_id[PK][FK]
         --
         # history_genre_id [FK]
         # history_merchandise_id [FK]
         history_quantity
-        histoty_day
+    }
+        
+    entity "商品ジャンルマスタ" as genre <genre> <<M,MASTER_MARK_COLOR>> {
+        + genre_id [PK]
+        --
+        genre_name
     }
     
     entity "商品マスタ" as merchandise <merchandise> <<M,MASTER_MARK_COLOR>> {
-        + genre_id [PK]
+        + genre_id [PK][FK]
         + merchandise_id [PK]
         --
-        genre_name
         merchandise_name
-        int
+        price
         merchandise_detail
         sales
+        stock
     }
     
     
   }
   
-    user       |o-ri-o{     cart
-cart          ||-ri-|{     history
-history    }-do-||     merchandise
-
+user              |-do-o{     cart
+user              |-ri-o{     history_purchase
+history_purchasse ||-ri-|{    history_detail
+cart              ||-ri-|{    merchandise
+merchandise       }|-do-||     genre
 
 @enduml
 ```
