@@ -1,25 +1,4 @@
-Skip to content
-Sign up
-asokg2021
-/
-DevSampleSystem
-Public
-015
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-More
-DevSampleSystem/06_DB設計書/ER図.md
-@asokg2021
-asokg2021 Add files via upload
-Latest commit a2eaa73 21 days ago
- History
- 1 contributor
-78 lines (67 sloc)  1.65 KB
-  
+```uml
 @startuml
 
 skinparam class {
@@ -96,3 +75,4 @@ items          }o-le-||     category
 
 
 @enduml
+```
