@@ -79,7 +79,7 @@ user              ||-do-o{     cart
 user              ||-ri-o{     history_purchase
 history_purchase  ||-ri-|{     history_detail
 history_detail    }o-do-o|     merchandise
-cart              ||-ri-|{    merchandise
+cart              }o-ri-|{    merchandise
 merchandise       }|-do-||     genre
 
 @enduml
