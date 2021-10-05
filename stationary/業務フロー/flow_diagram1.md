@@ -1,5 +1,5 @@
 ```
-@start
+@startuml
 alt ログイン成功
 alt 在庫なし
 ユーザー -> Webサーバー : カートに追加
@@ -18,5 +18,5 @@ else ログイン失敗
 Webサーバー -> ユーザー : 認証結果(失敗)
 end
 
-@end
+@enduml
 ```
