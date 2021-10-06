@@ -68,6 +68,7 @@ package "ECサイト" as target_system {
         --
         merchandise_name
         price
+        image
         merchandise_detail
         stock
     }
