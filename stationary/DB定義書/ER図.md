@@ -75,7 +75,7 @@ package "ECサイト" as target_system {
     
   }
   
-user              ||-do-o{     cart
+user              |○-do-o{     cart
 user              |o-ri-o{     history_purchase
 history_purchase  ||-ri-|{     history_detail
 history_detail    }o-do-||     merchandise
