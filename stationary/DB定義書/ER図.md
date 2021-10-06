@@ -22,7 +22,7 @@ package "ECサイト" as target_system {
     entity "ユーザーマスタ" as user <user> <<M,MASTER_MARK_COLOR>> {
         + user_number [PK]
         --
-        user_id
+        * user_id
         user_pass
         user_name
         credit_number
