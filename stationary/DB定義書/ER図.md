@@ -42,7 +42,7 @@ package "ECサイト" as target_system {
         + history_id[PK]
         --
         # history_user_number [FK]
-        histoty_day
+        purchase_day
         all_price
     }
         
