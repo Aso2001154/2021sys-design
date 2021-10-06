@@ -52,6 +52,7 @@ package "ECサイト" as target_system {
         --
         # history_genre_id [FK]
         # history_merchandise_id [FK]
+        price
         history_quantity
     }
         
