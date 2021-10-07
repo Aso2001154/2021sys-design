@@ -92,6 +92,7 @@ end
 end
 
 
+else ログイン失敗
 end
 
 @enduml
