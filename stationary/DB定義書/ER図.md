@@ -33,7 +33,7 @@ package "ECサイト" as target_system {
         + cart_user_number[PK][FK]
         + cart_count[PK]
         --
-        # cart_genre_id [FK]
+        #* cart_genre_id [FK]
         # cart_merchandise_id [FK]
         cart_quantity
     }
