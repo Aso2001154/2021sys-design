@@ -1,5 +1,5 @@
 ### 画面詳細図
-## 購入完了
+## 住所取得
 ### プロトタイプは以下のリンク先
 [プロトタイプ](https://www.figma.com/file/YN8g4ahM3raStzCZMDXhNA/stationary?node-id=1%3A2)
 *****
