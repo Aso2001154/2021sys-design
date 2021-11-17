@@ -4,7 +4,8 @@
 [プロトタイプ](https://www.figma.com/file/YN8g4ahM3raStzCZMDXhNA/stationary?node-id=1%3A2)
 *****
 <img src="../img/住所取得.png" width="500">
-
+###住所取得失敗
+<img src="../img/住所取得失敗.png" width="500">
 *****
 補足：対応DBの列はDB設計後、○を対応するテーブル・カラム名に差し替えること。
 
