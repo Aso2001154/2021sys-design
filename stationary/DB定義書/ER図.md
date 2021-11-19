@@ -19,7 +19,7 @@ package "ECサイト" as target_system {
       １文字なら "主" とか "従" まど日本語でも記載可能
      '/
 
-    entity "ユーザーマスタ" as user <user> <<M,MASTER_MARK_COLOR>> {
+    entity "ユーザーマスタ" as user <m_user> <<M,MASTER_MARK_COLOR>> {
         + user_number [PK]
         --
         * user_id
