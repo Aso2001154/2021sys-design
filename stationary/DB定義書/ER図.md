@@ -29,7 +29,7 @@ package "ECサイト" as target_system {
         user_address
     }
     
-    entity "カートテーブル" as cart <cart> <<T,TRANSACTION_MARK_COLOR>> {
+    entity "カートテーブル" as cart <t_cart> <<T,TRANSACTION_MARK_COLOR>> {
         + cart_user_number[PK][FK]
         + cart_count[PK]
         --
@@ -38,7 +38,7 @@ package "ECサイト" as target_system {
         cart_quantity
     }
     
-    entity "購入履歴テーブル" as history_purchase  <history_purchase> <<T,TRANSACTION_MARK_COLOR>> {
+    entity "購入履歴テーブル" as history_purchase  <t_history_purchase> <<T,TRANSACTION_MARK_COLOR>> {
         + history_id[PK]
         --
         # history_user_number [FK]
@@ -46,7 +46,7 @@ package "ECサイト" as target_system {
         all_price
     }
         
-    entity "購入詳細履歴テーブル" as history_detail  <history_detail> <<T,TRANSACTION_MARK_COLOR>> {
+    entity "購入詳細履歴テーブル" as history_detail  <t_history_detail> <<T,TRANSACTION_MARK_COLOR>> {
         + history_detail_id[PK]
         + history_id[PK][FK]
         --
@@ -56,13 +56,13 @@ package "ECサイト" as target_system {
         history_quantity
     }
         
-    entity "商品ジャンルマスタ" as genre <genre> <<M,MASTER_MARK_COLOR>> {
+    entity "商品ジャンルマスタ" as genre <m_genre> <<M,MASTER_MARK_COLOR>> {
         + genre_id [PK]
         --
         genre_name
     }
     
-    entity "商品マスタ" as merchandise <merchandise> <<M,MASTER_MARK_COLOR>> {
+    entity "商品マスタ" as merchandise <m_merchandise> <<M,MASTER_MARK_COLOR>> {
         + genre_id [PK][FK]
         + merchandise_id [PK]
         --
