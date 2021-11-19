@@ -30,7 +30,7 @@ package "ECサイト" as target_system {
     }
     
     entity "カートテーブル" as cart <t_cart> <<T,TRANSACTION_MARK_COLOR>> {
-        + cart_user_number[PK][FK]
+        + user_number[PK][FK]
         + cart_count[PK]
         --
         # cart_genre_id [FK]
@@ -41,7 +41,7 @@ package "ECサイト" as target_system {
     entity "購入履歴テーブル" as history_purchase  <t_history_purchase> <<T,TRANSACTION_MARK_COLOR>> {
         + history_id[PK]
         --
-        # history_user_number [FK]
+        # user_number [FK]
         purchase_day
         all_price
     }
