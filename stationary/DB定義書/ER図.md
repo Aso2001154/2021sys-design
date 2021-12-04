@@ -23,7 +23,7 @@ package "ECサイト" as target_system {
         + user_number [PK]
         --
         * user_id
-        * user_pass
+        user_pass
         user_name
         credit_number
         user_address
