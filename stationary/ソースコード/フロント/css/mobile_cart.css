@@ -1,0 +1,48 @@
+.header_name{
+    margin-left: 10%;
+    height: 75px;
+    width: 80%;
+}
+.subtitle{
+    margin-left: 5%;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.container{
+    width: 340px;
+    margin-left: 0.5%;
+    padding: 50px 5px;
+}
+.container4{
+    width: 600px;
+    margin-left: 2.55%;
+    padding: 25px 10px;
+}
+.merchandise_img{
+    width: 150px;
+    height: 200px;
+    margin-right: 3%;
+}
+.merchandise_information{
+    width: 90%;
+    margin-top: 0;
+    font-size: 12px;
+    padding-left: 20px;
+}
+.btn{
+    float: right;
+    margin-right: 10%;
+}
+#merchandise_name{
+    padding-top: 30px;
+}
+.purchase_btn{
+    margin-right: 15%;
+}
+.top_btn{
+    margin-left: 15%;
+}
+#purchase{
+    padding: 12px 40px;
+}

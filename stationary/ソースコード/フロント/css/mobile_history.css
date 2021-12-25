@@ -1,0 +1,65 @@
+.header_name{
+    margin-left: 10%;
+    height: 65px;
+    width: 80%;
+}
+.genre{
+    font-size: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#genre1,#genre2,#genre3{
+    margin-top: 2px;
+}
+#genre1,#genre2,#genre3,#genre4,#genre5,#genre6{
+    margin-left: 20px;
+}
+#genre1,#genre4{
+    margin-left: 40px;
+}
+#genre5{
+    margin-left: 30px;
+}
+#genre4,#genre5,#genre6{
+    margin-bottom: 10px;
+}
+.container{
+    margin-left: 3%;
+}
+.subtitle{
+    margin-left: 5%;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.period{
+    float: left;
+    font-size: 20px;
+    margin-right: 0;
+}
+.period_list{
+    margin-left: 35px;
+}
+.btn{
+    margin-left: 40px;
+}
+.range{
+    width: 95%;
+}
+.merchandise_img{
+    width: 150px;
+    height: 250px;
+    margin-right: 15px;
+}
+.merchandise_information{
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+#merchandise_name{
+    padding-top: 40px;
+}
+.sum_price{
+    margin-right: 60px;
+}

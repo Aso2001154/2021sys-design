@@ -1,0 +1,198 @@
+/*ranking.php・ranking_narrowing.php*/
+.header_name{
+    margin-left: 32%;
+    height: 130px;
+}
+.genre_list{
+    padding-top: 20px;
+    background-color: black;
+    margin-bottom: 20px;
+
+}
+.genre_list{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #5d627b;
+    background: white;
+    border-top: solid 5px #5d627b;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+}
+a{
+    text-decoration: none;
+}
+.genre_list p {
+    margin: 0;
+    padding: 0;
+}
+.genre{
+    color: black;
+    background-color: transparent;
+    border: 1px solid white;
+    font-size: 20px;
+}
+.genre:hover{
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+}
+#genre1,#genre2,#genre3,#genre4,#genre5{
+    float: left;
+}
+#genre1{
+    margin-left: 20%;
+}
+#genre2,#genre3,#genre4,#genre5{
+    margin-left: 120px;
+}
+.subtitle{
+    margin-top: 50px;
+    margin-left: 100px;
+    border-left: 5px solid black;
+    padding-left: 15px;
+}
+.period{
+    float: left;
+    margin-right: 50%;
+    margin-left: 15%;
+    font-size: 20px;
+    border-bottom: 2px cadetblue solid;
+    display: inline-block;
+
+}
+.period_list{
+    width: 100px;
+}
+.btn{
+    color: black;
+    background-color: white;
+    padding: 10px 20px;
+    border: 1px solid black;
+}
+.btn:hover{
+    color: white;
+    background-color: black;
+}
+.lank{
+    font-size: 40px;
+}
+.range{
+    margin-left: 20%;
+    margin-bottom: 50px;
+}
+.ranking_btn{
+    float: left;
+    background-color: transparent;
+    border: 1px solid transparent;
+    margin-right: 10%;
+}
+.merchandise_img{
+    width: 300px;
+    height: 300px;
+    padding-right: 10%;
+    float: left;
+}
+.merchandise_information{
+    margin-top: 50px;
+    margin-left: 5%;
+    font-size: 150%;
+    width: 75%;
+}
+.cd{
+    color: white;
+    clear: both;
+}
+.explanation{
+    width: 75%;
+    margin-left: 25%;
+}
+.top_btn{
+    border: 1px solid black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 45%;
+    padding: 20px 40px;
+    background-color: white;
+    color: black;
+}
+.top_btn:hover{
+    border-radius: 4px;
+    color: white;
+    background-color: black;
+}
+.scroll-button {
+    z-index: 1;
+    background-color: #5f5f5f;
+    border-radius: 27px;
+    border: 2px solid #efefef;
+    box-shadow: #848484 0px 0px 3px 1px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity .3s linear;
+}
+.scroll-button:before {
+    content: "";
+    width: 14px;
+    height: 23px;
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    background-color: white;
+}
+.scroll-button:after {
+    content: "";
+    border-width: 16px;
+    border-style: solid;
+    border-left-color: transparent;
+    border-right-color: #ff000000;
+    border-bottom-color: white;
+    border-top-color: #ff000000;
+    position: absolute;
+    top: -9px;
+    left: 9px;
+}
+@media only screen and (max-width: 850px){
+    .header_name{
+        margin-left: 12%;
+        width: 80%;
+    }
+    .genre{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    #genre1,#genre2,#genre3,#genre4,#genre5{
+        margin-left: 8.5%;
+    }
+    .subtitle{
+        margin-left: 30px;
+        border-left: 3px solid black;
+        padding-left: 15px;
+    }
+    .period{
+        float: left;
+        margin-right: 35%;
+        margin-left: 5%;
+        font-size: 20px;
+        height: 25px;
+    }
+    .merchandise_img{
+        width: 200px;
+        height: 200px;
+    }
+    .merchandise_information{
+        font-size: 90%;
+    }
+    .top_btn{
+        margin-left: 40%;
+
+    }
+    .explanation{
+        margin-left: 15%;
+    }
+}
+

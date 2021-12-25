@@ -1,0 +1,222 @@
+/*signup_in.php・signup_out.php・information.php・re_information.php・information_out.php・re_sighup_in.php・login_in.php・login_in1.php*/
+.head_border,.head_img{
+    border-bottom: 2px solid black;
+}
+.header_name{
+    margin-left: 32%;
+    height: 130px;
+}
+.header_log{
+    margin-left: 32%;
+    height: 130px;
+}
+.container{
+    width: 70%;
+    margin-left: 15%;
+    border: 1px solid black;
+}
+.container_info{
+    width: 60%;
+    height: 550px;
+    margin-left: 20%;
+    border: 1px solid black;
+}
+.subtitle{
+    margin-left: 30%;
+}
+.txt_information{
+    margin-left: 30%;
+}
+.sub{
+    margin-left: 25%;
+}
+.title{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 45px;
+}
+.txt{
+    margin-left: 25%;
+}
+
+.text{
+    height: 15px;
+    width: 485px;
+}
+.login,.top_info,.withdrawal_yes,.withdrawal_no{
+    padding: 15px 25px;
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+}
+.login:hover,.top_info:hover,.withdrawal_yes:hover,.withdrawal_no:hover{
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+}
+.login,.withdrawal_yes{
+    float: right;
+}
+.login{
+    margin-right: 26.5%;
+}
+.top_info,.withdrawal_no{
+    margin-bottom: 50px;
+}
+.top_info{
+    margin-left: 30%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.login_message,.message,.error{
+    text-align: center;
+}
+.login_message{
+    margin-top: 60px;
+}
+.message{
+    margin-top: 20px;
+}
+.back_login{
+    padding: 15px 25px;
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+}
+.login_in{
+    padding: 15px 25px;
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+}
+.logout_btn{
+    margin-top: 50px;
+    padding: 15px 25px;
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+}
+
+.back_login:hover,.login_in:hover,.logout_btn:hover{
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+}
+.header_btn{
+    background-color: white;
+    border: 1px solid white;
+}
+.number_text{
+    height: 15px;
+    width: 485px;
+}
+.search{
+    margin-left: 60%;
+}
+.span{
+    font-size: 5px;
+    color: red;
+}
+.width_p{
+    margin-right: 22%;
+    margin-left: 30%;
+}
+.link_a{
+    text-align: center;
+    margin-top: 10px;
+}
+.sign_up:hover{
+    border-radius: 4px;
+    color: cadetblue;
+    border-bottom: 2px solid black;
+}
+.signup_login,.search_p{
+    text-align: center;
+}
+.signup_btn{
+    background-color: white;
+    border: 1px solid black;
+    padding: 15px 25px;
+}
+.search_btn,.withdrawal_btn{
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px 25px;
+}
+.search_btn{
+    margin-left: 65%;
+}
+.withdrawal_btn{
+    margin-left: 75%;
+}
+.signup_btn:hover,.search_btn:hover,.withdrawal_btn:hover{
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+}
+.address_btn{
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px 25px;
+}
+.address_btn:hover{
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+}
+.error_signup{
+    color: red;
+    margin-left: 55%;
+}
+.number_input::-webkit-inner-spin-button,
+.number_input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    -moz-appearance:textfield;
+}
+.number_text::-webkit-inner-spin-button,
+.number_text::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    -moz-appearance:textfield;
+}
+@media only screen and (max-width: 850px) {
+    .header_log{
+        margin-left: 12%;
+        width: 80%;
+    }
+    .text {
+        width: 305px;
+    }
+    .search{
+        margin-left: 55%;
+    }
+    .number_text{
+        width: 305px;
+    }
+    .login{
+        margin-right: 25%;
+    }
+    .subtitle{
+        margin-left: 20%;
+    }
+    .txt_information{
+        margin-left: 20%;
+    }
+    .sub{
+        margin-left: 20%;
+    }
+    .width_p{
+        margin-right: 22%;
+        margin-left: 20%;
+    }
+    .txt{
+        margin-left: 20%;
+    }
+    .top_info{
+        margin-left: 20%;
+    }
+}

@@ -1,0 +1,40 @@
+.header_log{
+    height: 75px;
+    margin-left: 10%;
+    width: 80%;
+}
+.container_info{
+    width: 95%;
+    height: 370px;
+    margin-left: 10px;
+}
+.container{
+    width: 95%;
+    margin-left: 10px;
+}
+.title{
+    margin-top: 20px;
+    font-size: 35px;
+}
+.sub,.subtitle,.txt_information,.txt{
+    margin-left: 5%;
+}
+.link_a{
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+}
+.span{
+    font-size: 10px;
+}
+.login{
+    margin-right: 10%;
+}
+.top_info{
+    margin-left: 10%;
+    margin-bottom: 35px;
+}
+.error_signup{
+    margin-left: 50%;
+    font-size: 10px;
+}
