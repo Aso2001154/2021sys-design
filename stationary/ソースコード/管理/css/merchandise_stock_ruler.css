@@ -1,0 +1,16 @@
+.merchandise_img{
+    margin-top: 100px;
+    margin-bottom: 150px;
+    padding-right: 10%;
+    width: 300px;
+    height: 50px;
+}
+
+@media only screen and (max-width:800px){
+    .merchandise_img{
+        margin-top: 75px;
+        margin-bottom: 75px;
+        width: 200px;
+        height: 50px;
+    }
+}

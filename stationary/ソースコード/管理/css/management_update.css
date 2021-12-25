@@ -1,0 +1,60 @@
+body{
+    text-align: center;
+}
+.head_border{
+    border-bottom: 2px solid black;
+}
+.header_name{
+    margin-left: 32%;
+    height: 130px;
+}
+.container{
+    border: 1px solid black;
+}
+.title{
+    font-size: 50px;
+}
+.subtitle{
+    float: left;
+    margin-left: 5%;
+}
+.text{
+    height: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.login_message{
+    font-size: 50px;
+}
+.message{
+    font-size: 30px;
+}
+.back_login{
+    padding: 10px 25px;
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+}
+.back_login:hover{
+    background-color: black;
+    color: white;
+}
+.top_btn{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    padding: 20px 40px;
+    margin-top: 50px;
+}
+.top_btn:hover{
+    background-color: black;
+    color: white;
+}
+@media only screen and (max-width: 850px){
+    .header_name {
+        margin-left: 15%;
+        width: 80%;
+    }
+}

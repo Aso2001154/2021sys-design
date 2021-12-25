@@ -1,0 +1,126 @@
+.head_border{
+    border-bottom: 2px solid black;
+}
+.header_name{
+    margin-left: 32%;
+    height: 130px;
+}
+.container{
+    width: 70%;
+    margin-left: 15%;
+    border: 1px solid black;
+}
+.range{
+    margin-left: 8%;
+}
+.subtitle{
+    margin-left: 25%;
+}
+.merchandise{
+    margin-left: 25%;
+}
+.title{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 45px;
+}
+.text{
+    height: 15px;
+    width: 400px;
+}
+.file_text{
+    height: 30px;
+    width: 400px;
+}
+.btn,.top_btn{
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+}
+.btn{
+    padding: 20px 25px;
+}
+.top_btn{
+    padding: 20px 35px;
+}
+.btn:hover,.top_btn:hover{
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+}
+.btn{
+    float: right;
+    margin-right: 40%;
+}
+.top_btn{
+    margin-left: 32%;
+    margin-bottom: 50px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.message{
+    text-align: center;
+}
+#subtitle{
+    margin-top: 20px;
+}
+.product_btn,.result_btn{
+    margin-left: 47%;
+    padding: 10px 30px;
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+}
+.product_btn:hover,.result_btn:hover{
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+}
+.span{
+    font-size: 5px;
+    color: red;
+}
+.number_text{
+    height: 15px;
+    width: 400px;
+}
+.number_text::-webkit-inner-spin-button,
+.number_text::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    -moz-appearance:textfield;
+}
+@media only screen and (max-width: 850px) {
+    .header_name{
+        margin-left: 12%;
+        width: 80%;
+    }
+    .title{
+        margin-bottom: 0;
+    }
+    #subtitle{
+        margin-top: 10px;
+    }
+    .text,.number_text{
+        width: 250px;
+    }
+    .btn{
+        margin-right: 25%;
+    }
+    .container{
+        width: 80%;
+        margin-left: 10%;
+        border: 1px solid black;
+    }
+    .subtitle{
+        margin-left: 18%;
+    }
+    .merchandise{
+        margin-left: 18%;
+    }
+    .top_btn{
+        margin-left: 28%;
+    }
+}

@@ -1,0 +1,148 @@
+.head_border,.head_img{
+    border-bottom: 2px solid black;
+}
+.header_name{
+    margin-left: 32%;
+    height: 130px;
+}
+.header_log{
+    margin-left: 32%;
+    height: 130px;
+}
+.container{
+    width: 70%;
+    margin-left: 15%;
+    border: 1px solid black;
+}
+.container_info{
+    width: 60%;
+    margin-left: 20%;
+    border: 1px solid black;
+}
+.subtitle{
+    margin-left: 25%;
+}
+.txt_information{
+    margin-left: 25%;
+}
+.sub{
+    margin-left: 25%;
+}
+.title{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 45px;
+}
+.txt{
+    margin-left: 25%;
+}
+
+.text{
+    height: 15px;
+    width: 400px;
+}
+.login,.top_info{
+    padding: 10px 25px;
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+}
+.login:hover,.top_info:hover{
+    background-color: black;
+    color: white;
+}
+.login{
+    float: right;
+    margin-right: 30%;
+}
+.top_info{
+    margin-left: 25%;
+    margin-bottom: 50px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.login_message,.message,.error{
+    text-align: center;
+}
+.back_login,.login_in{
+    margin-left: 47%;
+    padding: 10px 25px;
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+}
+.back_login:hover,.login_in:hover{
+    background-color: black;
+    color: white;
+}
+.header_btn{
+    background-color: white;
+    border: 1px solid white;
+}
+.number_text{
+    height: 15px;
+    width: 400px;
+}
+
+.span{
+    font-size: 5px;
+    color: red;
+}
+.link_a{
+    text-align: center;
+    margin-top: 10px;
+}
+.sign_up:hover{
+    color: cadetblue;
+    border-bottom: 2px solid black;
+}
+.signup_login,.search_p{
+    text-align: center;
+}
+.signup_btn,.search_btn{
+    background-color: white;
+    border: 1px solid black;
+    margin-right: 50px;
+}
+.signup_btn,.search_btn{
+    padding: 10px 25px;
+}
+.top_btn{
+    padding: 10px 35px;
+}
+.signup_btn:hover,.search_btn:hover,.top_btn:hover{
+    background-color: black;
+    color: white;
+}
+#id_number::-webkit-inner-spin-button,
+#id_number::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    -moz-appearance:textfield;
+}
+.number_text::-webkit-inner-spin-button,
+.number_text::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    -moz-appearance:textfield;
+}
+@media only screen and (max-width: 850px) {
+    .header_log{
+        margin-left: 15%;
+        width: 80%;
+    }
+    .text {
+        width: 250px;
+    }
+    .number_text{
+        width: 250px;
+    }
+    .login{
+        margin-right: 25%;
+    }
+    .signup_btn{
+        margin-right: 40px;
+    }
+}
