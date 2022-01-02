@@ -1,3 +1,4 @@
+```
 <?php
 //データベースへログイン
 function data_base(){
@@ -185,3 +186,4 @@ function delete_user(){
     return 'DELETE FROM `user` WHERE `user_number` = ?';
 }
 ?>
+```
